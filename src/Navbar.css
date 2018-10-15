@@ -1,0 +1,57 @@
+header {
+  background: rgb(51, 102, 153);  
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  border: 1px solid #a2a2a2;
+  justify-content: space-between;
+}
+
+header h3 {
+    text-align: center;
+}
+
+header li {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    list-style: none;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav li {
+    margin: 0 15px;
+}
+
+header nav li:first-child {
+    margin-left: 0;
+}
+
+header nav li:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 1000px) {
+  header{
+    padding: 20px 50px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  header{
+    flex-direction: column;
+  }
+
+  header h2{
+    margin-bottom: 15px;
+  }
+}
+
+
+
+
